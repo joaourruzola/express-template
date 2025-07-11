@@ -1,0 +1,36 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "template for express + mysql + bootstrap + handlebars",
+  "main": "app.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaourruzola/express-template.git"
+  },
+  "keywords": [
+    "template",
+    "expressjs",
+    "mysql"
+  ],
+  "author": "João Urruzola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaourruzola/express-template/issues"
+  },
+  "homepage": "https://github.com/joaourruzola/express-template#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
