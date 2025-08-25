@@ -1,4 +1,5 @@
 import Express from "express";
+import { engine } from "express-handlebars";
 import connection from "./models/db.js";
 
 const port = process.env.PORT || 8080;
@@ -23,6 +24,8 @@ app.use(Express.static("public"));
 app.use("/", (req, res) => {
 	res.render("home");
 });
+
+app.engine("handlebars", engine());
 app.set("view engine", "handlebars");
 app.set("views", "./views");
 
