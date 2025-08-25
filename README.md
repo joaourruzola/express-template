@@ -1,11 +1,11 @@
 ## Tech Stack
 
-Node.js
-Express
-Express-Handlebars
-MySQL
-Bootstrap
-dotenv
+- Node.js
+- Express
+- Express-Handlebars
+- MySQL
+- Bootstrap
+- dotenv
 
 ## Installation ⚙️
 
