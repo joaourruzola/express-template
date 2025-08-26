@@ -1,7 +1,7 @@
 {
   "name": "templates",
   "version": "1.0.0",
-  "description": "template for express + mysql + bootstrap + handlebars",
+  "description": "template for express + mysql2 + bootstrap + handlebars",
   "main": "app.mjs",
   "type": "module",
   "scripts": {
